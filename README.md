@@ -22,6 +22,8 @@ Synthetic oncology clinical-trial dataset with **120 subjects** and three treatm
 
 **Educational use only — not real clinical-trial evidence.**
 
+Source: [CDISC Dataset](https://cdiscdataset.com/)
+
 ## ADaM datasets
 
 - **ADSL** — Subject-Level Analysis Dataset
