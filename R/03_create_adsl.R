@@ -1,8 +1,4 @@
 # ============================================================
-# Oncology SDTM to ADaM with {admiral}
-#
-# File: 03_create_adsl.R
-#
 # Purpose:
 #   Create the Analysis Subject-Level Dataset (ADSL) from
 #   the SDTM Demographics (DM) domain.
@@ -428,8 +424,7 @@ file.exists(
 
 
 # ============================================================
-# End of 03_create_adsl.R
-#
+
 # ADSL has now been:
 #   1. Created from SDTM DM
 #   2. Enriched with analysis treatment variables
@@ -439,10 +434,5 @@ file.exists(
 #   6. QC'd
 #   7. Saved to data/adam/adsl.csv
 #
-# Next:
-#   04_create_adae.R
-#
-# The ADAE program will use SDTM AE together with ADSL
-# treatment information to create the Adverse Events
-# Analysis Dataset.
+
 # ============================================================
