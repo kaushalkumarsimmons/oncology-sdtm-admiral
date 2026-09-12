@@ -1,8 +1,4 @@
 # ============================================================
-# Oncology SDTM to ADaM with {admiral}
-#
-# File: 05_safety_analysis.R
-#
 # Purpose:
 #   Perform descriptive safety analyses using the
 #   Analysis Datasets ADSL and ADAE.
@@ -17,12 +13,6 @@
 #   7. AE severity distribution
 #   8. AE duration
 #   9. Patient-level AE burden
-#
-# Important:
-#   This is a synthetic educational dataset.
-#   The analysis demonstrates a reproducible
-#   statistical-programming workflow and should
-#   not be interpreted as clinical evidence.
 # ============================================================
 
 
