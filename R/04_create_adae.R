@@ -1,8 +1,4 @@
 # ============================================================
-# Oncology SDTM to ADaM with {admiral}
-#
-# File: 04_create_adae.R
-#
 # Purpose:
 #   Create the Analysis Adverse Events (ADAE) dataset from:
 #
@@ -27,14 +23,7 @@
 #   AOCCFL  = Grade >= 3 Treatment-Emergent AE Flag
 #
 # The final ADAE dataset is saved as:
-#
 #   data/adam/adae.csv
-#
-# Note:
-#   This is an educational clinical-programming workflow.
-#   Production ADAE derivations should follow the study
-#   protocol, SAP, CDISC implementation guidance, and
-#   study-specific programming specifications.
 # ============================================================
 
 
@@ -741,8 +730,7 @@ adae %>%
 
 
 # ============================================================
-# End of 04_create_adae.R
-#
+
 # ADAE has now been:
 #
 #   1. Created from SDTM AE
@@ -755,13 +743,5 @@ adae %>%
 #   8. QC'd
 #   9. Saved to data/adam/adae.csv
 #  10. Summarised at the patient level
-#
-# Next analytical work can build on ADAE for:
-#   - patient-level safety summaries
-#   - treatment-emergent AE tables
-#   - Grade >= 3 AE summaries
-#   - serious AE summaries
-#   - treatment-related AE summaries
-#   - AE incidence by treatment arm
 # ============================================================
 
